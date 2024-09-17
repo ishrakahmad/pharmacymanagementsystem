@@ -21,7 +21,7 @@ perUnit bigint not null
 
 
 
-# cQuery for View medicine
+# Query for View medicine
 
 select * from medic
 select * from medic where mname like '"+txtSearch.Text+"%'
