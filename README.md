@@ -21,7 +21,7 @@ perUnit bigint not null
 
 
 
-#Query for View medicine
+# cQuery for View medicine
 
 select * from medic
 select * from medic where mname like '"+txtSearch.Text+"%'
@@ -29,7 +29,7 @@ delete from medic where mid = '"+MedicineID+"'
 
 
 
-#Functionality of view medicine button
+# Functionality of view medicine button
 Here is the database table
 
 <img width="828" alt="Screenshot 2024-09-17 at 10 26 45 PM" src="https://github.com/user-attachments/assets/282325a2-ffff-473f-a6bb-ef909ed749aa">
@@ -42,7 +42,7 @@ When you type medicine name in the search box if the medicine is available then 
 
 
 
-#Query for Add medicine
+# Query for Add medicine
 
 insert into medic (mid, mname, mnumber, mDate, eDate,quantity, perUnit) values('"+ mid + "','"+ mname + "', '"+ mnumber + "', '"+mdate+"', '"+edate+"',"+quantity+","+perunit+")
 
