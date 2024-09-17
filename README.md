@@ -47,7 +47,7 @@ When you type medicine name in the search box if the medicine is available then 
 insert into medic (mid, mname, mnumber, mDate, eDate,quantity, perUnit) values('"+ mid + "','"+ mname + "', '"+ mnumber + "', '"+mdate+"', '"+edate+"',"+quantity+","+perunit+")
 
 
-#Functionality of Add medicine button
+# Functionality of Add medicine button
 
 Using this we can add new medicine in the database. Here we have to fill all the textbox . We can write the medicine name, medicine ID, quantity, price per unit. After fill all the boxs if we click on add button it will automatically added to the database.
 
