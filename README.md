@@ -41,9 +41,12 @@ When you type add user name in the search box if the user role then it will auto
 
 
 
-# Query for Add user button
+# Query for view user button
 
-insert into medic (mid, mname, mnumber, mDate, eDate,quantity, perUnit) values('"+ mid + "','"+ mname + "', '"+ mnumber + "', '"+mdate+"', '"+edate+"',"+quantity+","+perunit+")
+select * from users where username like '"+txtUserName.Text+"%'
+delete from users where username='"+username+"'
+![image](https://github.com/user-attachments/assets/70afc3d4-2086-4d6a-a48c-8cfbe461ae0e)
+
 
 
 # Functionality of view user button
