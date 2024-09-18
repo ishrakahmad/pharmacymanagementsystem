@@ -23,8 +23,7 @@ perUnit bigint not null
 
 # Query for add user
 
-insert into users(userRole,name,dob,mobile,email,username,pass) values ('"+role+"','"+name+ "','"+dob+"',"+mobile+",'"+email+"','"+username+"','"+password+"')![image](https://github.com/user-attachments/assets/a6dec5ac-a739-4bae-b501-851dfd3e75d4)
-
+insert into users(userRole,name,dob,mobile,email,username,pass) values ('"+role+"','"+name+ "','"+dob+"',"+mobile+",'"+email+"','"+username+"','"+password+"')!
 
 
 # Functionality of add user button
@@ -45,7 +44,7 @@ When you type add user name in the search box if the user role then it will auto
 
 select * from users where username like '"+txtUserName.Text+"%'
 delete from users where username='"+username+"'
-![image](https://github.com/user-attachments/assets/70afc3d4-2086-4d6a-a48c-8cfbe461ae0e)
+
 
 
 
