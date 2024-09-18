@@ -21,15 +21,13 @@ perUnit bigint not null
 
 
 
-# Query for View medicine
+# Query for add user
 
-select * from medic
-select * from medic where mname like '"+txtSearch.Text+"%'
-delete from medic where mid = '"+MedicineID+"'
+insert into users(userRole,name,dob,mobile,email,username,pass) values ('"+role+"','"+name+ "','"+dob+"',"+mobile+",'"+email+"','"+username+"','"+password+"')![image](https://github.com/user-attachments/assets/a6dec5ac-a739-4bae-b501-851dfd3e75d4)
 
 
 
-# Functionality of view medicine button
+# Functionality of add user button
 Here is the database table
 
 <img width="812" alt="Screenshot 2024-09-18 at 8 45 54 AM" src="https://github.com/user-attachments/assets/b2883307-86c8-4dfc-81ff-fc1fec4ecfb1">
@@ -43,7 +41,7 @@ When you type add user name in the search box if the user role then it will auto
 
 
 
-# Query for Add medicine
+# Query for Add user button
 
 insert into medic (mid, mname, mnumber, mDate, eDate,quantity, perUnit) values('"+ mid + "','"+ mname + "', '"+ mnumber + "', '"+mdate+"', '"+edate+"',"+quantity+","+perunit+")
 
